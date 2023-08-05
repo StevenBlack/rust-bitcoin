@@ -165,7 +165,8 @@ then run with `RUSTFLAGS='--cfg=mutate' cargo +nightly mutagen`.
 
 ### Code verification
 
-We have started using [kani](https://github.com/model-checking/kani), install with `cargo install --locked kani-verifier`
+We have started using [kani](https://github.com/model-checking/kani), install with `cargo install --locked kani-verifier` 
+
  (no need to run `cargo kani setup`). Run the tests with `cargo kani`.
 
 ## Pull Requests
@@ -190,7 +191,7 @@ To assist devs in catching errors _before_ running CI we provide some githooks. 
 already have locally configured githooks you can use the ones in this repository by running, in the
 root directory of the repository:
 ```
-git config --local core.hooksPath githooks/
+git config --local core.hooksPath githooks/ 
 ```
 
 Alternatively add symlinks in your `.git/hooks` directory to any of the githooks we provide.
@@ -207,7 +208,7 @@ Our code is public domain so by all means fork it and go wild :)
 
 ## Release Notes
 
-Release notes are done per crate, see:
+Release notes are done per crate, see: 
 
 - [bitcoin CHANGELOG](bitcoin/CHANGELOG.md)
 - [hashes CHANGELOG](hashes/CHANGELOG.md)
@@ -216,5 +217,6 @@ Release notes are done per crate, see:
 
 ## Licensing
 
-The code in this project is licensed under the [Creative Commons CC0 1.0 Universal license](LICENSE).
+The code in this project is licensed under the [Creative Commons CC0 1.0 Universal license](LICENSE)
+
 We use the [SPDX license list](https://spdx.org/licenses/) and [SPDX IDs](https://spdx.dev/ids/).
